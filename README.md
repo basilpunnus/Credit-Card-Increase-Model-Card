@@ -54,12 +54,30 @@
 * **Metrics used to evaluate your final model**: Training AUC, Test AUC, Validation AUC, Asian-to-white AIR, Black-to-white AIR, hispanic-to-male AIR, Female-to-male AIR
 * **State the final values of the metrics for all data: training, validation, and test data**: Training AUC: 0.774612  Validation AUC: 0.749614  Test AUC: 0.7454
 * **Provide any plots related to your data or final model **:
-
-
-
-
-
+![histogram](https://user-images.githubusercontent.com/89624534/131265485-7a169c38-50df-42be-98d3-0669b51085d5.png)
 
 ## Ethical considerations
 * **Describe potential negative impacts of using your model**: 
+   * ■ Math or software problems 
+      Many different versions of software will lead to different outputs and hence different decisions based where/how the model is applied
+   *■ Real-world risks: who, what, when or how 
+      *Racial bias is built-in to the data
+      *Data poisoning which can lead to wrong/unethical outcomes
+ * **Describe potential uncertainties relating to the impacts of using your model**:
+   *■ Math or software problems 
+      Data security is uncertain, breaches can directly impact lot of people
+   *■ Real-world risks: who, what, when or how? 
+      Data regulation will directly impact the model 
+  * **Describe any unexpected or results**:
+    *Hispanic-to-white AIR is below 0.80
+    *Female-to-male AIR is above 1.00
+     
+ 
+ 
+   
+ 
+      
+      
+
+
 
