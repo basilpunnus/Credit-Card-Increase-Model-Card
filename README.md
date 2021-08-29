@@ -55,6 +55,8 @@
 * **State the final values of the metrics for all data: training, validation, and test data**: Training AUC: 0.774612  Validation AUC: 0.749614  Test AUC: 0.7454
 * **Provide any plots related to your data or final model **:
 ![histogram](https://user-images.githubusercontent.com/89624534/131265485-7a169c38-50df-42be-98d3-0669b51085d5.png)
+![download](https://user-images.githubusercontent.com/89624534/131265735-606fe9e4-3148-4783-8930-de5100b27fde.png)
+
 
 ## Ethical considerations
 * **Describe potential negative impacts of using your model**: 
