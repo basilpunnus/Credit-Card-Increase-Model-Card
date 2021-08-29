@@ -25,11 +25,11 @@
 | ---- | ------------- | ---------------- | ---------- |
 |**ID**| ID | int | unique row indentifier |
 | **LIMIT_BAL** | input | float | amount of previously awarded credit |
-| **SEX** | demographic information | int | 1 = male; 2 = female
-| **RACE** | demographic information | int | 1 = hispanic; 2 = black; 3 = white; 4 = asian |
-| **EDUCATION** | demographic information | int | 1 = graduate school; 2 = university; 3 = high school; 4 = others |
-| **MARRIAGE** | demographic information | int | 1 = married; 2 = single; 3 = others |
-| **AGE** | demographic information | int | age in years |
+| **SEX** | input | int | number of males and females
+| **RACE** | input | int | 1 = hispanic; 2 = black; 3 = white; 4 = asian |
+| **EDUCATION** | input | int | 1 = graduate school; 2 = university; 3 = high school; 4 = others |
+| **MARRIAGE** | input | int | 1 = married; 2 = single; 3 = others |
+| **AGE** | input | float | age in years |
 | **PAY_0, PAY_2 - PAY_6** | inputs | int | history of past payment; PAY_0 = the repayment status in September, 2005; PAY_2 = the repayment status in August, 2005; ...; PAY_6 = the repayment status in April, 2005. The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; ...; 8 = payment delay for eight months; 9 = payment delay for nine months and above |
 | **BILL_AMT1 - BILL_AMT6** | inputs | float | amount of bill statement; BILL_AMNT1 = amount of bill statement in September, 2005; BILL_AMT2 = amount of bill statement in August, 2005; ...; BILL_AMT6 = amount of bill statement in April, 2005 |
 | **PAY_AMT1 - PAY_AMT6** | inputs | float | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
@@ -40,3 +40,26 @@
 * **Source of test data**: GWU Blackboard, email `jphall@gwu.edu` for more information
 * **Number of rows in test data**: 7,500
 * **State any differences in columns between training and test data**: None
+
+
+### Model Details
+* **Columns used as inputs in the final model**: X_names = ['LIMIT_BAL', 'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6']
+* **Column(s) used as target(s) in the final model**: y_name = 'DELINQ_NEXT' 
+* **Type of model**:  Decision tree
+* **Software used to implement the model**: ython, sc-kit-learn, google colab, pandas, matplotlib, numpy, io 
+* **Version of the modeling software**: Python 3.7.11 Sklearn version 0.22.2.post1
+* **Hyperparameters or other settings of your model **: Max_depth = 12    pre-bias remediation cutoff: 0.15   Post-bias remediation cutoff: 0.18
+
+### Quantitative analysis
+* **Metrics used to evaluate your final model**: Training AUC, Test AUC, Validation AUC, Asian-to-white AIR, Black-to-white AIR, hispanic-to-male AIR, Female-to-male AIR
+* **State the final values of the metrics for all data: training, validation, and test data**: Training AUC: 0.774612  Validation AUC: 0.749614  Test AUC: 0.7454
+* **Provide any plots related to your data or final model **:
+
+
+
+
+
+
+## Ethical considerations
+* **Describe potential negative impacts of using your model**: 
+
