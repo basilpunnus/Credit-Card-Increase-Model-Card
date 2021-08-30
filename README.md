@@ -46,7 +46,7 @@
 * **Columns used as inputs in the final model**: X_names = ['LIMIT_BAL', 'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6']
 * **Column(s) used as target(s) in the final model**: y_name = 'DELINQ_NEXT' 
 * **Type of model**:  Decision tree, Random forest
-* **Software used to implement the model**: ython, sc-kit-learn, google colab, pandas, matplotlib, numpy, io 
+* **Software used to implement the model**: Python, sc-kit-learn, google colab, pandas, matplotlib, numpy, io 
 * **Version of the modeling software**: Python 3.7.11 Sklearn version 0.22.2.post1
 * **Hyperparameters or other settings of your model **: Max_depth = 12    pre-bias remediation cutoff: 0.15   Post-bias remediation cutoff: 0.18
 
