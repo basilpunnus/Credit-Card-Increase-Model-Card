@@ -67,17 +67,17 @@
 * **Describe potential negative impacts of using your model**: 
    * ■ Math or software problems 
       Many different versions of software will lead to different outputs and hence different decisions based where/how the model is applied
-   *■ Real-world risks: who, what, when or how 
+   * ■ Real-world risks: who, what, when or how 
       *Racial bias is built-in to the data
       *Data poisoning which can lead to wrong/unethical outcomes
  * **Describe potential uncertainties relating to the impacts of using your model**:
-   *■ Math or software problems 
+   * ■ Math or software problems 
       Data security is uncertain, breaches can directly impact lot of people
-   *■ Real-world risks: who, what, when or how? 
+   * ■ Real-world risks: who, what, when or how? 
       Data regulation will directly impact the model 
   * **Describe any unexpected or results**:
-    *Hispanic-to-white AIR is below 0.80
-    *Female-to-male AIR is above 1.00
+    * Hispanic-to-white AIR is below 0.80
+    * Female-to-male AIR is above 1.00
      
  
  
