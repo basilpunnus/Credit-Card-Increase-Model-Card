@@ -6,7 +6,7 @@
 * **Model date**: August, 2021
 * **Model version**: 1.0
 * **License**: MIT
-* **Model implementation code**: [DNSC_6301_10_GroupProject.ipynb](DNSC_6301_10_GroupProject.ipynb)
+* **Model implementation code**: [DNSC_6301.ipynb](DNSC_6301_10_GroupProject.ipynb)
 
 ### Intended Use
 * **Primary intended uses**: This model is an *example* probability of default classifier, with an *example* use case for determining eligibility for a credit line increase.
@@ -45,14 +45,16 @@
 ### Model Details
 * **Columns used as inputs in the final model**: X_names = ['LIMIT_BAL', 'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6']
 * **Column(s) used as target(s) in the final model**: y_name = 'DELINQ_NEXT' 
-* **Type of model**:  Decision tree
+* **Type of model**:  Decision tree, Random forest
 * **Software used to implement the model**: ython, sc-kit-learn, google colab, pandas, matplotlib, numpy, io 
 * **Version of the modeling software**: Python 3.7.11 Sklearn version 0.22.2.post1
 * **Hyperparameters or other settings of your model **: Max_depth = 12    pre-bias remediation cutoff: 0.15   Post-bias remediation cutoff: 0.18
 
 ### Quantitative analysis
 * **Metrics used to evaluate your final model**: Training AUC, Test AUC, Validation AUC, Asian-to-white AIR, Black-to-white AIR, hispanic-to-male AIR, Female-to-male AIR
-* **State the final values of the metrics for all data: training, validation, and test data**: Training AUC: 0.774612  Validation AUC: 0.749614  Test AUC: 0.7454
+* **State the final values of the metrics for all data: training, validation, and test data**:
+* Final values of the decision tree model - Training AUC: 0.774612  Validation AUC: 0.749614  Test AUC: 0.7454
+* Final Values of the Random Forest model - Training AUC: 0.792508 Validation AUC: 0.781513 Test AUC: 0.7743
 * **Provide any plots related to your data or final model **:
 ![download (3)](https://user-images.githubusercontent.com/89624534/131265798-7a2afc0b-20ec-4d16-aac6-d34b2102a94f.png)
 ![Decision tree](https://user-images.githubusercontent.com/89624534/131274423-6631bb65-b1af-49b4-835f-84a15bd79c91.png)
