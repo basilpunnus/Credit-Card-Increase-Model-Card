@@ -5,7 +5,7 @@
 * **Person or organization developing model**: Harshit Aggarwal,'haggarwal17@gwmail.gwu.edu', Basil Punnus,'basilpunnus@gwmail.gwu.edu'
 * **Model date**: August, 2021
 * **Model version**: 1.0
-* **License**: 
+* **License**: MIT
 * **Model implementation code**: [DNSC_6301_10_GroupProject.ipynb](DNSC_6301_10_GroupProject.ipynb)
 
 ### Intended Use
