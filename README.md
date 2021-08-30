@@ -55,6 +55,7 @@
 * **State the final values of the metrics for all data: training, validation, and test data**: Training AUC: 0.774612  Validation AUC: 0.749614  Test AUC: 0.7454
 * **Provide any plots related to your data or final model **:
 ![download (3)](https://user-images.githubusercontent.com/89624534/131265798-7a2afc0b-20ec-4d16-aac6-d34b2102a94f.png)
+![Decision tree](https://user-images.githubusercontent.com/89624534/131274423-6631bb65-b1af-49b4-835f-84a15bd79c91.png)
 ![histogram](https://user-images.githubusercontent.com/89624534/131265485-7a169c38-50df-42be-98d3-0669b51085d5.png)
 ![download](https://user-images.githubusercontent.com/89624534/131265758-8ba45e28-d6ae-4dac-9215-f3c0a5f56ea1.png)
 ![download (1)](https://user-images.githubusercontent.com/89624534/131265761-5deb7900-a5b3-4e60-9cb8-54d6d4445a78.png)
