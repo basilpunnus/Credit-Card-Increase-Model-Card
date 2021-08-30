@@ -69,14 +69,26 @@
 * **Describe potential negative impacts of using your model**: 
    * ■ Math or software problems 
       Many different versions of software will lead to different outputs and hence different decisions based where/how the model is applied
+      My whole data is based on restricted datasets which can impact the results of my model
+      
+      
    * ■ Real-world risks:  
-      *Racial bias is built-in to the data
-      *Data poisoning which can lead to wrong/unethical outcomes
+      Racial bias is built-in to the data
+      Data poisoning which can lead to wrong/unethical outcomes
  * **Describe potential uncertainties relating to the impacts of using your model**:
    * ■ Math or software problems 
       Data security is uncertain, breaches can directly impact lot of people
-   * ■ Real-world risks: who, what, when or how? 
+      
+      My model could be
+      Exposed to well-known risks such as DDOS or man-in-the-middle attacks
+      
+   * ■ Real-world risks: 
       Data regulation will directly impact the model 
+      The data can be corrupt because of the data being Bias.
+      Malicious actor could learn more
+      about your own decision tree model than you know and use this knowledge
+      imbalance to attack my model.
+
   * **Describe any unexpected or results**:
     * Hispanic-to-white AIR is below 0.80
     * Female-to-male AIR is above 1.00
