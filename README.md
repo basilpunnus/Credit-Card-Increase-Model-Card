@@ -67,7 +67,7 @@
 * **Describe potential negative impacts of using your model**: 
    * ■ Math or software problems 
       Many different versions of software will lead to different outputs and hence different decisions based where/how the model is applied
-   * ■ Real-world risks: who, what, when or how 
+   * ■ Real-world risks:  
       *Racial bias is built-in to the data
       *Data poisoning which can lead to wrong/unethical outcomes
  * **Describe potential uncertainties relating to the impacts of using your model**:
